@@ -406,3 +406,4 @@
 * [滑动窗口最大值](LeetCode/滑动窗口最大值.md)
 * [汇总区间](LeetCode/汇总区间.md)
 * [替换后的最长重复字符](LeetCode/替换后的最长重复字符.md)
+* [手写reduce和compose.md](LeetCode/手写reduce和compose.md)
