@@ -242,6 +242,9 @@
 * [初探webpack之编写plugin](Plugin/初探webpack之编写plugin.md)
 * [初探webpack之从零搭建Vue开发环境](Plugin/初探webpack之搭建Vue开发环境.md)
 * [TS内置类型与拓展](Plugin/TS内置类型与拓展.md)
+* [base64原理](Plugin/base64原理.md)
+* [JSBridge原理](Plugin/JSBridge原理.md)
+
 
 ## Patterns
 * [简单工厂模式](Patterns/简单工厂模式.md)
@@ -379,6 +382,7 @@
 * [使括号有效的最少添加](LeetCode/使括号有效的最少添加.md)
 * [二叉树的所有路径](LeetCode/二叉树的所有路径.md)
 * [二叉树的层次遍历 II](LeetCode/二叉树的层次遍历%20II.md)
+* [二叉树的先序中序后序实现](LeetCode/二叉树的先序中序后序实现.md)
 * [组合](LeetCode/组合.md)
 * [翻转二叉树](LeetCode/翻转二叉树.md)
 * [子集](LeetCode/子集.md)
@@ -406,4 +410,15 @@
 * [滑动窗口最大值](LeetCode/滑动窗口最大值.md)
 * [汇总区间](LeetCode/汇总区间.md)
 * [替换后的最长重复字符](LeetCode/替换后的最长重复字符.md)
-* [手写reduce和compose.md](LeetCode/手写reduce和compose.md)
+* [数据有环判断.md](LeetCode/数据有环判断.md)
+
+## FECoding
+* [手写reduce和compose.md](FECoding/手写reduce和compose.md)
+* [线性结构数组与树形结构相互转换.md](FECoding/线性结构数组与树形结构相互转换.md)
+* [相同元素数组合并.md](FECoding/相同元素数组合并.md)
+* [性能优化-插入几万个DOM.md](FECoding/性能优化-插入几万个DOM.md)
+* [首字母大写.md](FECoding/首字母大写.md)
+
+## others
+* [离线包方案](https://www.cnblogs.com/zhangrunhao/p/14582448.html)
+

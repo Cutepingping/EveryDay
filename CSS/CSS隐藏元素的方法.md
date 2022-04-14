@@ -1,5 +1,5 @@
 # CSS隐藏元素的方法
-使用`CSS`隐藏元素的主要方式有`diaplay: none;`、`opacity: 0;`、`visibility: hidden;`、`position: absolute; overflow: hidden;`、`clip-path: polygon(0 0, 0 0, 0 0, 0 0);`、`height: 0; overflow: hidden;`。
+使用`CSS`隐藏元素的主要方式有`diaplay: none;`、`opacity: 0;`、`visibility: hidden;`、`position: absolute; overflow: hidden;`、`clip-path: polygon(0 0, 0 0, 0 0, 0 0);`、`height: 0; overflow: hidden;`、`transform: scale(0)`。
 
 ## diaplay
 `display: none;`属性依照词义是真正隐藏元素，使用这个属性，被隐藏的元素不占据任何空间，用户交互操作例如点击事件都不会生效，读屏软件也不会读到元素的内容，这个元素的任何子元素也会同时被隐藏。当使用该属性将元素从显示状态切换为隐藏状态时，元素不占据原本的空间，会触发浏览器的重绘与回流。为这个属性添加过渡动画是无效的，他的任何不同状态值之间的切换总是会立即生效。这种方式产生的效果就像元素完全不存在，但在`DOM`中依然可以访问到这个元素，也可以通过`DOM`来操作它。
